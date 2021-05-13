@@ -22,6 +22,27 @@ f = c * 9 / 5 + 32
 print('華氏溫度為： ', f)
 '''
 
+# Else (if架構延伸)
+'''
+age = input('請輸入年齡： ')
+age = int(age)  # 將字串轉型為整數
+if age >= 20:
+    print('你可以投票')
+else:
+    print('你還不能投票喔')
 
+'''
 
-
+# Elif (if架構延伸)
+'''
+age = input('請輸入年齡： ')
+age = int(age)  # 將字串轉型為整數
+if age < 13:
+    print('國小')
+elif age >= 13 and age < 18:
+    print('國高中')
+elif age >= 18 and age < 22:
+    print('大學')
+else:
+    print('社會')
+'''
